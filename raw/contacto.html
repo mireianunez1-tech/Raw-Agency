@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacta con RAW Agency — agenda una llamada o escríbenos directamente.">
+  <title>Contacto — RAW Agency</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">RAW</a>
+      <nav class="header-nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link" data-page="index.html">Home</a>
+        <a href="sobre-nosotros.html" class="nav-link" data-page="sobre-nosotros.html">Sobre nosotros</a>
+        <a href="servicios.html" class="nav-link" data-page="servicios.html">Servicios</a>
+        <a href="proyectos.html" class="nav-link" data-page="proyectos.html">Proyectos</a>
+      </nav>
+      <a href="contacto.html" class="btn btn-primary header-cta">Agenda una llamada</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" aria-label="Menú móvil">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="sobre-nosotros.html" class="nav-link">Sobre nosotros</a>
+      <a href="servicios.html" class="nav-link">Servicios</a>
+      <a href="proyectos.html" class="nav-link">Proyectos</a>
+      <a href="contacto.html" class="btn btn-primary">Agenda una llamada</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-page" aria-label="Contacto">
+      <div class="container">
+
+        <h1 class="fade-in">¿Hablamos?</h1>
+        <p class="contact-intro fade-in delay-1">
+          Sin compromisos. Cuéntanos qué necesitas y encontramos la forma de ayudarte.
+        </p>
+
+        <div class="contact-grid">
+
+          <!-- FORM -->
+          <div class="fade-in">
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-group">
+                <label class="form-label" for="nombre">Nombre</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre completo"
+                  autocomplete="name"
+                >
+                <p class="form-error" id="nombre-error"></p>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="tu@email.com"
+                  autocomplete="email"
+                >
+                <p class="form-error" id="email-error"></p>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="empresa">
+                  Empresa <span class="optional">(opcional)</span>
+                </label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="empresa"
+                  name="empresa"
+                  placeholder="Nombre de tu empresa o proyecto"
+                  autocomplete="organization"
+                >
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="mensaje">Mensaje</label>
+                <textarea
+                  class="form-textarea"
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Cuéntanos en qué podemos ayudarte..."
+                ></textarea>
+                <p class="form-error" id="mensaje-error"></p>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center; padding:16px;">
+                Enviar mensaje
+              </button>
+
+              <div class="form-success" id="form-success" role="alert">
+                ¡Mensaje enviado! Te respondemos en menos de 24 horas.
+              </div>
+            </form>
+          </div>
+
+          <!-- CONTACT INFO -->
+          <div class="contact-info fade-in delay-1">
+            <p class="contact-info-label">O escríbenos directamente</p>
+            <a href="mailto:hola@rawagency.es" class="contact-info-email">hola@rawagency.es</a>
+            <p class="contact-info-note">Respondemos en menos de 24h</p>
+
+            <div style="height:1px; background: rgba(202,197,185,0.5); margin: 40px 0;"></div>
+
+            <p class="contact-info-label">Síguenos</p>
+            <div class="social-links">
+              <a href="https://www.instagram.com" class="social-link" target="_blank" rel="noopener" aria-label="Instagram de RAW Agency">
+                <span class="social-link-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                    <circle cx="12" cy="12" r="4"/>
+                    <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+                  </svg>
+                </span>
+                Instagram
+              </a>
+              <a href="https://www.linkedin.com" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn de RAW Agency">
+                <span class="social-link-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect x="2" y="9" width="4" height="12"/>
+                    <circle cx="4" cy="4" r="2"/>
+                  </svg>
+                </span>
+                LinkedIn
+              </a>
+            </div>
+
+            <div style="height:1px; background: rgba(202,197,185,0.5); margin: 40px 0;"></div>
+
+            <p class="contact-info-label">Con sede en</p>
+            <p style="font-size:16px; font-weight:600; color: var(--color-dark); margin-bottom:4px;">Pontevedra, España</p>
+            <p style="font-size:14px; color:rgba(47,47,47,0.5);">Trabajamos con marcas de toda la península</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="footer-logo">RAW</a>
+        <nav class="footer-nav" aria-label="Pie de página">
+          <a href="index.html">Home</a>
+          <a href="sobre-nosotros.html">Sobre nosotros</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="footer-copy">© 2025 RAW. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

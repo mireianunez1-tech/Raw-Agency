@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Proyectos de RAW Agency — trabajo real para marcas reales.">
+  <title>Proyectos — RAW Agency</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header" role="banner">
+    <div class="header-inner">
+      <a href="index.html" class="header-logo">RAW</a>
+      <nav class="header-nav" aria-label="Navegación principal">
+        <a href="index.html" class="nav-link" data-page="index.html">Home</a>
+        <a href="sobre-nosotros.html" class="nav-link" data-page="sobre-nosotros.html">Sobre nosotros</a>
+        <a href="servicios.html" class="nav-link" data-page="servicios.html">Servicios</a>
+        <a href="proyectos.html" class="nav-link active" data-page="proyectos.html">Proyectos</a>
+      </nav>
+      <a href="contacto.html" class="btn btn-primary header-cta">Agenda una llamada</a>
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" aria-label="Menú móvil">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="sobre-nosotros.html" class="nav-link">Sobre nosotros</a>
+      <a href="servicios.html" class="nav-link">Servicios</a>
+      <a href="proyectos.html" class="nav-link">Proyectos</a>
+      <a href="contacto.html" class="btn btn-primary">Agenda una llamada</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="page-hero-light" aria-label="Proyectos">
+      <div class="container">
+        <h1 class="fade-in">Proyectos</h1>
+        <p class="fade-in delay-1" style="font-size:18px; color:rgba(47,47,47,0.65); max-width:480px; margin-top:16px;">
+          Trabajo real para marcas reales.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS GRID -->
+    <section class="section" style="background: var(--color-background);">
+      <div class="container">
+
+        <!-- Filter bar -->
+        <div class="filter-bar fade-in" role="group" aria-label="Filtrar proyectos">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="branding">Branding</button>
+          <button class="filter-btn" data-filter="redes-sociales">Redes Sociales</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="editorial">Editorial</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="projects-grid">
+
+          <div class="project-card-full fade-in" data-category="branding">
+            <a href="proyectos/proyecto-01.html" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image" aria-label="Ladera Wines">
+                <span style="position:relative;z-index:1;">Ladera Wines</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Branding</p>
+                <h4>Ladera Wines</h4>
+                <p class="project-card-desc">Identidad visual completa para una bodega familiar de la Ribera del Duero.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card-full fade-in delay-1" data-category="redes-sociales">
+            <a href="proyectos/proyecto-02.html" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image img-placeholder-light" aria-label="Natura Barcelona">
+                <span style="position:relative;z-index:1;">Natura Barcelona</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Redes Sociales</p>
+                <h4>Natura Barcelona</h4>
+                <p class="project-card-desc">Estrategia de contenido y gestión de RRSS para una marca de bienestar.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card-full fade-in delay-2" data-category="web">
+            <a href="proyectos/proyecto-03.html" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image" style="background:#BDB8B0;" aria-label="Estudio Formas">
+                <span style="position:relative;z-index:1;">Estudio Formas</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Web</p>
+                <h4>Estudio Formas</h4>
+                <p class="project-card-desc">Diseño y desarrollo web para un estudio de arquitectura de Barcelona.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card-full fade-in" data-category="editorial">
+            <a href="#" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image" style="background:#C8C2BA;" aria-label="Revista Origo">
+                <span style="position:relative;z-index:1;">Revista Origo</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Editorial</p>
+                <h4>Revista Origo</h4>
+                <p class="project-card-desc">Diseño editorial de una revista bimestral de cultura y gastronomía.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card-full fade-in delay-1" data-category="branding">
+            <a href="#" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image img-placeholder-light" style="background:#D5D0C8;" aria-label="Clínica Allure">
+                <span style="position:relative;z-index:1;">Clínica Allure</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Branding</p>
+                <h4>Clínica Allure</h4>
+                <p class="project-card-desc">Naming, logo e identidad visual para una clínica estética en Madrid.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="project-card-full fade-in delay-2" data-category="redes-sociales">
+            <a href="#" class="project-card project-card-full" style="display:block;">
+              <div class="img-placeholder aspect-32 project-card-image" style="background:#B8B4AC;" aria-label="Casa Menta">
+                <span style="position:relative;z-index:1;">Casa Menta</span>
+              </div>
+              <div class="project-card-body">
+                <p class="project-card-category">Redes Sociales</p>
+                <h4>Casa Menta</h4>
+                <p class="project-card-desc">Gestión integral de redes sociales para un restaurante de cocina mediterránea.</p>
+                <span class="project-card-link">Ver proyecto →</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-strip" aria-label="Contacto">
+      <div class="container">
+        <h2 class="fade-in">¿Tu marca podría ser el siguiente?</h2>
+        <p class="fade-in delay-1">Cuéntanos tu proyecto y vemos cómo trabajamos juntos.</p>
+        <a href="contacto.html" class="btn btn-primary fade-in delay-2">Hablemos</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <a href="index.html" class="footer-logo">RAW</a>
+        <nav class="footer-nav" aria-label="Pie de página">
+          <a href="index.html">Home</a>
+          <a href="sobre-nosotros.html">Sobre nosotros</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="proyectos.html">Proyectos</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="footer-copy">© 2025 RAW. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
